@@ -1,0 +1,25 @@
+:root {
+    --primary-color: #fce138;
+    --secondary-color: #024e76;
+    --tertiary-color: #39a6b2;
+  }
+
+  /*style header*/
+.header {
+
+}
+
+/*style hero*/
+.hero {
+    background-color: dimgray;
+    height: 600px;
+}
+
+.hero-text {
+    color: rgb(85, 225, 228);
+}
+/*style about me*/
+
+/*style work*/
+
+/*style contact me*/
