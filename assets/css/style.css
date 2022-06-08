@@ -4,19 +4,74 @@
     --tertiary-color: #39a6b2;
   }
 
-  /*style header*/
-.header {
+  body {
+      background: linear-gradient(-45deg,#3e3c8a, #709ddb, #aad0de, #c7deeb);
+      font-family:'Courier New', Courier, monospace;
+  }
 
+  /*style header*/
+header {
+    padding: 20px 35px;
+    background-color: rgb(156, 156, 163);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;
 }
 
+header h1 {
+    text-shadow: 0 0 10px whitesmoke;
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: rgb(48, 48, 48);
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    text-shadow: 0 0 10px whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none; 
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+  }
+
+  header nav ul li a:hover {
+    background: #a2db98;
+    color: #024e76;
+    border-radius: 15px;
+    text-shadow: none;
+  }
+
+footer {
+    padding: auto;
+    display: flex;
+}
+
+section {
+    padding: 50px;
+}
 /*style hero*/
 .hero {
-    background-color: dimgray;
-    height: 600px;
+    background-image: url("assets\Images\wood-background.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 400px;
 }
 
 .hero-text {
-    color: rgb(85, 225, 228);
+    color: rgb(129, 32, 32);
 }
 /*style about me*/
 
