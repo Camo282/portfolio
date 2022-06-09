@@ -53,28 +53,90 @@ header nav ul li a {
     text-shadow: none;
   }
 
-footer {
-    padding: auto;
-    display: flex;
-}
+
 
 section {
     padding: 50px;
 }
-/*style hero*/
-.hero {
-    background-image: url("assets\Images\wood-background.jpg");
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    height: 400px;
+
+.section-title {
+    font-size: 50px;
+    border-bottom: 2px solid;
+    color: black;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 25px auto;
 }
 
-.hero-text {
-    color: rgb(129, 32, 32);
-}
 /*style about me*/
+.sheridan {
+       flex-wrap: wrap;
 
+    
+}
+
+.sheridan p {
+    line-height: 2;
+    color: black;
+    width: 80%;
+    font-size: 20px;
+    text-align: center;
+}
 /*style work*/
+.applications {
+    width:80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 
-/*style contact me*/
+}
+/*style contact*/
+.contact-me {
+    font-size: 25px;
+    text-align: center;
+
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+    header nav ul li a {
+      font-size: 20px;
+    }
+    footer h2, footer div {
+      text-align: center;
+      width: 100%;
+    }
+    .hero-cta, .hero-form {
+      width: 100%;
+    }
+  .hero-cta {
+    text-align: center;
+  }
+  .section-title {
+    width: 80%;
+  }
+  .trainer {
+    flex: 0 70%;
+  }
+  .contact-info iframe {
+    flex: 1 100%;
+  }
+  
+    }
+  
